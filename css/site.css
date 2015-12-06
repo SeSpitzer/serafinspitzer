@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.VideoSlot {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.Video {
+    width: 100%;
+}
+
+.Content {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+}
+
+.ContentNav {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: inline-block;
+}
+
+.ContentHeader {position: absolute;display: inline-block;left: 50px;top: 30px;font-size: 10px;}
+
+.ContentMetadata {
+    position: absolute;
+    display: inline-block;
+    top: 73px;
+    left: 50px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    line-height: 15px;
+}
+
+
+.ContentAward {
+    background-image: url( '/images/award.png' );
+    padding-left: 44px;
+    background-position-x: 0;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.ContentAward-inner {}
+
+a {
+    color: #fff;
+}
+
+.ContentNav a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.ButtonNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+}
+
+.NavButtons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.NavButton {
+    width: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.ButtonNext {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.Contact {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ContentHeader a {
+    text-decoration: none;
+}
